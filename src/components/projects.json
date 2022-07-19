@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "CryptoGeek",
+        "decription": "A Cryptocurrency tracker website having visualization of past trends for more then 100 cryptocoins. A user can Login/Signup and edit his Wishlist to add or remove his favourite cryptocoin.",
+        "demo": "https://cryptogeeksnet.netlify.app/",
+        "code": "https://github.com/signifershrey/CryptoGeek"
+    },
+    {
+        "id": "2",
+        "title": "NameIt",
+        "decription": "A React App that helps users to suggest a name for their project and directly links to Namecheap.com to check all the available domain names.",
+        "demo": "https://github.com/signifershrey/Name_it",
+        "code": "https://github.com/signifershrey/Name_it"
+    },
+    {
+        "id": "3",
+        "title": "Digital Whiteboard",
+        "decription": " It is a web based drawing application made using Canvas and the functionalities are implemented using Javascript.",
+        "demo": "https://team-asyncc.github.io/WhiteBoard-2",
+        "code": "https://github.com/signifershrey/WhiteBoard-2"
+    },
+    {
+        "id": "4",
+        "title": "Memespark",
+        "decription": "A Meme-Generator application.It has a interface with 100+ Meme Templates.",
+        "demo": "https://memespark.netlify.app/#/",
+        "code": "https://github.com/signifershrey/memespark"
+    },
+    {
+        "id": "5",
+        "title": "Minion Translator",
+        "decription": "A Translating Application which converts your text into Minion Language works by fetching Api calls.",
+        "demo": "https://goofy-noether-1fd0e4.netlify.app/",
+        "code": "https://github.com/signifershrey/Minion-translator"
+    },
+    {
+        "id": "6",
+        "title": "Flexbox Cheetsheet",
+        "decription": "It's a Flexbox cheatsheet to learn more about Flexbox CSS, built with the help of Flexbox CSS.",
+        "demo": "https://signifershrey.github.io/Flexbox-Cheatsheet/",
+        "code": "https://github.com/signifershrey/Flexbox-Cheatsheet"
+    }
+]
