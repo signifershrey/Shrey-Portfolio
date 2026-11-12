@@ -1,44 +1,63 @@
 [
-    {
-        "id": "1",
-        "title": "CryptoGeek",
-        "decription": "A Cryptocurrency tracker website having visualization of past trends for more then 100 cryptocoins. A user can Login/Signup and edit his Wishlist to add or remove his favourite cryptocoin.",
-        "demo": "https://cryptogeeksnet.netlify.app/",
-        "code": "https://github.com/signifershrey/CryptoGeek"
-    },
-    {
-        "id": "2",
-        "title": "NameIt",
-        "decription": "A React App that helps users to suggest a name for their project and directly links to Namecheap.com to check all the available domain names.",
-        "demo": "https://github.com/signifershrey/Name_it",
-        "code": "https://github.com/signifershrey/Name_it"
-    },
-    {
-        "id": "3",
-        "title": "Digital Whiteboard",
-        "decription": " It is a web based drawing application made using Canvas and the functionalities are implemented using Javascript.",
-        "demo": "https://team-asyncc.github.io/WhiteBoard-2",
-        "code": "https://github.com/signifershrey/WhiteBoard-2"
-    },
-    {
-        "id": "4",
-        "title": "Memespark",
-        "decription": "A Meme-Generator application.It has a interface with 100+ Meme Templates.",
-        "demo": "https://memespark.netlify.app/#/",
-        "code": "https://github.com/signifershrey/memespark"
-    },
-    {
-        "id": "5",
-        "title": "Minion Translator",
-        "decription": "A Translating Application which converts your text into Minion Language works by fetching Api calls.",
-        "demo": "https://goofy-noether-1fd0e4.netlify.app/",
-        "code": "https://github.com/signifershrey/Minion-translator"
-    },
-    {
-        "id": "6",
-        "title": "Flexbox Cheetsheet",
-        "decription": "It's a Flexbox cheatsheet to learn more about Flexbox CSS, built with the help of Flexbox CSS.",
-        "demo": "https://signifershrey.github.io/Flexbox-Cheatsheet/",
-        "code": "https://github.com/signifershrey/Flexbox-Cheatsheet"
-    }
+  {
+    "id": "datapilot-ai",
+    "title": "DataPilot AI",
+    "category": "DATA ENGINEERING · AI",
+    "problem": "Answering questions about operational data can mean jumping between SQL clients, Python scripts, and separate ETL tools.",
+    "role": "Independent project — designed and built the conversational data assistant and its multi-agent workflows.",
+    "process": "Built a LangGraph router that sends database questions to a schema-aware SQL analyst and extraction or transformation requests to an ETL analyst. Gemini powers routing and generation; SQL is checked for read-only intent before execution.",
+    "outcome": "A local prototype that brings natural-language PostgreSQL analysis, API extraction, and Pandas-powered file transformations into one conversational workflow. SQL checks are a prototype safeguard, not a production-grade policy engine.",
+    "stack": ["Python", "LangGraph", "Google Gemini", "PostgreSQL", "Pandas", "Pydantic"],
+    "demo": null,
+    "code": "https://github.com/signifershrey/DataPilot-AI",
+    "availability": "Local prototype · no live demo"
+  },
+  {
+    "id": "cryptogeek",
+    "title": "CryptoGeek",
+    "category": "FINTECH · WEB",
+    "problem": "Crypto prices move quickly, and comparing market history across a growing list of coins can feel overwhelming.",
+    "role": "Full-stack development, from the market-tracking experience to account and watchlist flows.",
+    "process": "Brought price history, coin discovery, and a personal wishlist into one focused experience, with sign-up and sign-in for returning users.",
+    "outcome": "A single place to explore historical trends across 100+ cryptocurrencies and keep a personal shortlist close at hand.",
+    "stack": ["React", "JavaScript", "API integration", "Authentication"],
+    "demo": "https://cryptogeeksnet.netlify.app/",
+    "code": "https://github.com/signifershrey/CryptoGeek"
+  },
+  {
+    "id": "nameit",
+    "title": "NameIt",
+    "category": "IDEATION · WEB",
+    "problem": "Naming a new project is hard enough without repeatedly leaving the brainstorming process to check domain availability.",
+    "role": "Frontend development and product experience.",
+    "process": "Created a lightweight React app that helps people explore project-name ideas and moves naturally from inspiration to a domain search.",
+    "outcome": "A shorter path from a name idea to checking available domains through Namecheap.",
+    "stack": ["React", "JavaScript", "Namecheap"],
+    "demo": null,
+    "code": "https://github.com/signifershrey/Name_it"
+  },
+  {
+    "id": "whiteboard",
+    "title": "Digital Whiteboard",
+    "category": "CREATIVE TOOLS",
+    "problem": "Sometimes the quickest way to explain an idea is to draw it, without opening a heavyweight design tool.",
+    "role": "Web application development.",
+    "process": "Built a browser-based drawing surface with the Canvas API and JavaScript, keeping the focus on an immediate, hands-on workspace.",
+    "outcome": "A lightweight place to sketch and communicate ideas directly in the browser.",
+    "stack": ["JavaScript", "Canvas API", "HTML", "CSS"],
+    "demo": "https://team-asyncc.github.io/WhiteBoard-2",
+    "code": "https://github.com/signifershrey/WhiteBoard-2"
+  },
+  {
+    "id": "memespark",
+    "title": "Memespark",
+    "category": "CREATIVE TOOLS",
+    "problem": "Making a quick meme should be playful and approachable, not a detour through complicated editing software.",
+    "role": "Frontend development.",
+    "process": "Made a focused meme-creation experience around a browsable collection of more than 100 templates.",
+    "outcome": "A low-friction starting point for creating and sharing a meme from a familiar template.",
+    "stack": ["React", "JavaScript", "CSS"],
+    "demo": "https://memespark.netlify.app/#/",
+    "code": "https://github.com/signifershrey/memespark"
+  }
 ]
